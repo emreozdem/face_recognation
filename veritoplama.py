@@ -9,7 +9,7 @@ face_detector = cv2.CascadeClassifier('Cascades\haarcascade_frontalcatface.xml')
 face_id = input('\n Kullanıcı için bir id(numara) belirleyiniz ve Enter''a basınız  ')
 print("\n Yüz yakalama programı başlatılıyor! Kameraya bakınız...")
 
-count = 100
+count = 0
 while(True):
     ret, img = cam.read()
     
@@ -25,7 +25,7 @@ while(True):
     k = cv2.waitKey(100) & 0xff # ascii tablosunda tanımlı tuş bekleme
     if k == 27: #beklenen tuş ESC ise programı kapatır
         break
-    elif count >= 120: # 50 FOTOĞRAF ÇEKER 
+    elif count >= 50: # 50 FOTOĞRAF ÇEKER 
          break
 
 print("\n Kapatılıyor ve temizleniyor!")
