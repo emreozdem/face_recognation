@@ -1,5 +1,5 @@
 # face_recognation
-Python ve OpenCv kullanarak yazdığım yüz algılama ve tanıma uygulamasıdır.
+Python ve OpenCv kullanarak yazdığım gerçek zamanlı yüz algılama ve tanıma uygulamasıdır.
 
 !! NASIL ÇALIŞIR !!
 Yüz algılama ve tanıma sistemim 3 aşamadan oluşmaktadır:
